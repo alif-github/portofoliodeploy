@@ -368,8 +368,26 @@
 
    /* social links */
    footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }   
+   footer .social-links li { margin-left: 14px; } 
+     
+   /* data bmkg */
+   .data-bmkg-layout {
+      background-color: #ffffff;
+   }
 
+   .column-databmkg {
+      width: 100%;
+      padding: 10px;
+      height: 300px;
+   }
+
+   .col1-databmkg{
+      background-color: salmon;
+   }
+   
+   .col2-databmkg{
+      background-color: slateblue;
+   }
 }
 
 

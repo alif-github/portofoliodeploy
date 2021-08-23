@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
+import HeadShake from "react-reveal/HeadShake";
 
 class Header extends Component {
   render() {
@@ -49,32 +49,39 @@ class Header extends Component {
             </li>
 
             <li>
+              <a className="smoothscroll" href="#databmkg">
+                Data Gempa
+              </a>
+            </li>
+
+            <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
             </li>
+            
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
-            <Fade bottom>
+            <HeadShake>
               <h1 className="responsive-headline">{name}</h1>
-            </Fade>
-            <Fade bottom duration={1200}>
+            </HeadShake>
+            <HeadShake>
               <h3>{description}.</h3>
-            </Fade>
+            </HeadShake>
             <hr />
-            <Fade bottom duration={2000}>
+            <HeadShake>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
+                <a href={project} target="blank" className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
                 </a>
-                <a href={github} className="button btn github-btn">
+                <a href={github} target="blank" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
-            </Fade>
+            </HeadShake>
           </div>
         </div>
 

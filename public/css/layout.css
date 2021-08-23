@@ -182,7 +182,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #000542;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -1022,3 +1022,45 @@ footer .social-links li:first-child { margin-left: 0; }
 .github-btn{
    background-color: #34495e !important;
 }
+
+/* ------------------------------------------------------------------ */
+/* -------------------------------------------------Feature Data BMKG */
+.data-bmkg-layout{
+   background-color: #ffffff;
+   box-sizing: border-box;
+   height: 300px;
+}
+
+.column-databmkg{
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px;
+}
+
+.col1-databmkg{
+   background-color: salmon;
+}
+
+.col2-databmkg{
+   background-color: slateblue;
+}
+
+.subcolumn {
+   float: left;
+   width: 48%;
+   padding: 5px;
+   margin: 2px;
+   background-color: #ffffff;
+   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   font-size: larger;
+   font-weight: bold;
+}
+
+.data-bmkg-layout::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+/* ------------------------------------------------------------------ */
