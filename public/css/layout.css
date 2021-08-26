@@ -69,6 +69,7 @@ header .banner-text h3 {
    font-weight: bolder;
    margin: 0 auto;
    width: 70%;
+   background-color: rgba(255, 255, 255, .9);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
