@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import HeadShake from "react-reveal/HeadShake";
 
 class Header extends Component {
