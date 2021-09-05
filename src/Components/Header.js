@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
+    // const project = this.props.data.project;
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
@@ -71,11 +71,11 @@ class Header extends Component {
             <hr />
             <HeadShake>
               <ul className="social">
-                <a href={project} target="blank" className="button btn project-btn">
+                {/* <a href={project} target="blank" className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
-                </a>
+                </a> */}
                 <a href={github} target="blank" className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                  <i className="fa fa-github"></i>Let see my Github
                 </a>
               </ul>
             </HeadShake>
