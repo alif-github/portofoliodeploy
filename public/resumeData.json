@@ -3,17 +3,17 @@
     "name":"Alif Yudha Syahputra",
     "description":"Hello, welcome to my portfolio website. I work as a backend software engineer. However, I also like working on projects for the front end. Let's come closer",
     "image":"profilepic.jpg",
-    "bio":"Terlahir di dunia dari sebuah telur digimon, alif ingin menguasai dunia, menyelamatkan ratu es kutub utara dan tidur di atas awan dengan zeus",
+    "bio":"Alif Yudha Syahputra (23), currently active as software developer in distribution system solution company. Every day, i work with many developing, debugging code and data preparation for my app user. Coffee and music much help me to code properly, get idea, and improve my mood when i'm in action.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "alif.yudhasyahputra@gmail.com",
     "phone": "0878-794-756-99",
     "github":"https://github.com/alif-github",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"jl. Piano III, F 11/12, Villa Mutiara Gading, Setia Asih, Tarumajaya, Bekasi",
+      "street":"",
       "city":"Bekasi",
       "state":"Jawa Barat",
-      "zip": "15214"
+      "zip": ""
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
